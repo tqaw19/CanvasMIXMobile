@@ -1,0 +1,6 @@
+framework module Pods_CanvasMix {
+  umbrella header "Pods-CanvasMix-umbrella.h"
+
+  export *
+  module * { export * }
+}

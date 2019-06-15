@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A02C9E5E0BC00F06DDEFBA1 /* Pods_CanvasMix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3BE99FD960735376A46A49 /* Pods_CanvasMix.framework */; };
+		A908A08422B45CCB00357316 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A908A08322B45CCB00357316 /* MainViewController.swift */; };
+		A9DB6F6F22A710620019F75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB6F6E22A710620019F75A /* AppDelegate.swift */; };
+		A9DB6F7122A710620019F75A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB6F7022A710620019F75A /* ViewController.swift */; };
+		A9DB6F7422A710620019F75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DB6F7222A710620019F75A /* Main.storyboard */; };
+		A9DB6F7722A710620019F75A /* CanvasMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9DB6F7522A710620019F75A /* CanvasMix.xcdatamodeld */; };
+		A9DB6F7922A710620019F75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DB6F7822A710620019F75A /* Assets.xcassets */; };
+		A9DB6F7C22A710620019F75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DB6F7A22A710620019F75A /* LaunchScreen.storyboard */; };
+		A9DB6F8422A853720019F75A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DB6F8322A853710019F75A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2496D5D9A334E76200F7EDD8 /* Pods-CanvasMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasMix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix.debug.xcconfig"; sourceTree = "<group>"; };
+		A908A08322B45CCB00357316 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A9DB6F6B22A710610019F75A /* CanvasMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DB6F6E22A710620019F75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DB6F7022A710620019F75A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9DB6F7322A710620019F75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9DB6F7622A710620019F75A /* CanvasMix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CanvasMix.xcdatamodel; sourceTree = "<group>"; };
+		A9DB6F7822A710620019F75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DB6F7B22A710620019F75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DB6F7D22A710620019F75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DB6F8322A853710019F75A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD3BE99FD960735376A46A49 /* Pods_CanvasMix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasMix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F003D10A48C46F446C5543B5 /* Pods-CanvasMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasMix.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DB6F6822A710610019F75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A02C9E5E0BC00F06DDEFBA1 /* Pods_CanvasMix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369352BACAC69A5F0FE0E09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BE99FD960735376A46A49 /* Pods_CanvasMix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DB6F6222A710610019F75A = {
+			isa = PBXGroup;
+			children = (
+				A9DB6F6D22A710610019F75A /* CanvasMix */,
+				A9DB6F6C22A710610019F75A /* Products */,
+				EC0FA6057AF8AEDD126EFF9C /* Pods */,
+				369352BACAC69A5F0FE0E09D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DB6F6C22A710610019F75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB6F6B22A710610019F75A /* CanvasMix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DB6F6D22A710610019F75A /* CanvasMix */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB6F8322A853710019F75A /* GoogleService-Info.plist */,
+				A9DB6F6E22A710620019F75A /* AppDelegate.swift */,
+				A9DB6F7022A710620019F75A /* ViewController.swift */,
+				A908A08322B45CCB00357316 /* MainViewController.swift */,
+				A9DB6F7222A710620019F75A /* Main.storyboard */,
+				A9DB6F7822A710620019F75A /* Assets.xcassets */,
+				A9DB6F7A22A710620019F75A /* LaunchScreen.storyboard */,
+				A9DB6F7D22A710620019F75A /* Info.plist */,
+				A9DB6F7522A710620019F75A /* CanvasMix.xcdatamodeld */,
+			);
+			path = CanvasMix;
+			sourceTree = "<group>";
+		};
+		EC0FA6057AF8AEDD126EFF9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2496D5D9A334E76200F7EDD8 /* Pods-CanvasMix.debug.xcconfig */,
+				F003D10A48C46F446C5543B5 /* Pods-CanvasMix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DB6F6A22A710610019F75A /* CanvasMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DB6F8022A710620019F75A /* Build configuration list for PBXNativeTarget "CanvasMix" */;
+			buildPhases = (
+				7E111D2E25BD2DE37E660077 /* [CP] Check Pods Manifest.lock */,
+				A9DB6F6722A710610019F75A /* Sources */,
+				A9DB6F6822A710610019F75A /* Frameworks */,
+				A9DB6F6922A710610019F75A /* Resources */,
+				00DF0F7DCEDDF75F5E637B57 /* [CP] Embed Pods Frameworks */,
+				1467439DA99629AF88E7762C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanvasMix;
+			productName = CanvasMix;
+			productReference = A9DB6F6B22A710610019F75A /* CanvasMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DB6F6322A710610019F75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tecsup;
+				TargetAttributes = {
+					A9DB6F6A22A710610019F75A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9DB6F6622A710610019F75A /* Build configuration list for PBXProject "CanvasMix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DB6F6222A710610019F75A;
+			productRefGroup = A9DB6F6C22A710610019F75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DB6F6A22A710610019F75A /* CanvasMix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DB6F6922A710610019F75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DB6F7C22A710620019F75A /* LaunchScreen.storyboard in Resources */,
+				A9DB6F7922A710620019F75A /* Assets.xcassets in Resources */,
+				A9DB6F7422A710620019F75A /* Main.storyboard in Resources */,
+				A9DB6F8422A853720019F75A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DF0F7DCEDDF75F5E637B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1467439DA99629AF88E7762C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanvasMix/Pods-CanvasMix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E111D2E25BD2DE37E660077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanvasMix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DB6F6722A710610019F75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DB6F7122A710620019F75A /* ViewController.swift in Sources */,
+				A9DB6F7722A710620019F75A /* CanvasMix.xcdatamodeld in Sources */,
+				A9DB6F6F22A710620019F75A /* AppDelegate.swift in Sources */,
+				A908A08422B45CCB00357316 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DB6F7222A710620019F75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DB6F7322A710620019F75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DB6F7A22A710620019F75A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DB6F7B22A710620019F75A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DB6F7E22A710620019F75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DB6F7F22A710620019F75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DB6F8122A710620019F75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2496D5D9A334E76200F7EDD8 /* Pods-CanvasMix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA7GA2BQGN;
+				INFOPLIST_FILE = CanvasMix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.CanvasMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DB6F8222A710620019F75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F003D10A48C46F446C5543B5 /* Pods-CanvasMix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA7GA2BQGN;
+				INFOPLIST_FILE = CanvasMix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.CanvasMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DB6F6622A710610019F75A /* Build configuration list for PBXProject "CanvasMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DB6F7E22A710620019F75A /* Debug */,
+				A9DB6F7F22A710620019F75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DB6F8022A710620019F75A /* Build configuration list for PBXNativeTarget "CanvasMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DB6F8122A710620019F75A /* Debug */,
+				A9DB6F8222A710620019F75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9DB6F7522A710620019F75A /* CanvasMix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9DB6F7622A710620019F75A /* CanvasMix.xcdatamodel */,
+			);
+			currentVersion = A9DB6F7622A710620019F75A /* CanvasMix.xcdatamodel */;
+			path = CanvasMix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9DB6F6322A710610019F75A /* Project object */;
+}
